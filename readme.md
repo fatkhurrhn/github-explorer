@@ -8,7 +8,7 @@
 
 <h2 align="center">github-profile-searcher</h2>
 Responsive for all devices, built using HTML, CSS, and JavaScript.
-<a href="https://codewithsadee.github.io/portfolio/"><strong>➥ Live Demo</strong></a>
+<a href="https://github-profile-searcher-eight.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
