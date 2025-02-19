@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=fatkhur03&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 👋 Hi there! I'm Fathur
 
-## Available Scripts
+I'm an Information Systems student passionate about Front-End Development, turning ideas into interactive and user-friendly experiences with clean and efficient code. Always exploring new web technologies, I love building innovative projects and crafting seamless user experiences. Check out my repos and let's create something awesome together! 😎🔥
+ 
+<!-- ## 🌐 Socials: -->
+<!-- [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/story.thur) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fatkhurrhn/)  -->
 
-In the project directory, you can run:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/story.thur) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fatkhurrhn) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://www.tiktok.com/@fatkhurrhnn)
 
-### `npm start`
+[![image](https://github.com/fatkhurrhn/fatkhurrhn/blob/main/dino.gif)](https://fatkhurrhn.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="left">
+<a href="https://github.com/fatkhurrhn">
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=fatkhurrhn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=fatkhurrhn&layout=compact&theme=algolia"/>
+</a>
+</p>
+ 
+<!-- ## 💻 Technical Skills:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend Development:** HTML/CSS3, JavaScript, Bootstrap :v
+- **Tools and Design:** VSCode, GitHub and Figma -->
+<!-- snake graph -->
+<!-- <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fatkhurrhn/fatkhurrhn/blob/main/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github.com/fatkhurrhn/fatkhurrhn/blob/main/github-contribution-grid-snake.svg" />
+    <img src="https://github.com/fatkhurrhn/fatkhurrhn/blob/main/github-contribution-grid-snake.svg" alt="github-snake" />
+  </picture>
+<h4> _generated with [Platane/snk](https://platane.me/snk/)_</h4>
+</div> -->
+<br>
+<div align="left">
+<!--   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fatkhurrhn&radius=16&theme=react&area=true&order=5" height="auto" alt="by fatkhurhhn"/> -->
+  <a href="https://fatkhurrhn.vercel.app/">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=fatkhurrhn&theme=github-compact&radius=16" height="auto" alt="by fatkhurhhn"/>
+</a>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

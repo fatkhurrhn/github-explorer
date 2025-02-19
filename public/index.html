@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="https://flowbite.com/docs/images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -15,6 +15,7 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,10 +25,399 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <title>Fatkhurrhn</title>
+  <link rel="preconnect" href="https://www.google-analytics.com/" />
+  <link rel="stylesheet" href="assets/style.css"/>
+  <script type="module" src="assets/script.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    @keyframes fade-appear {
+      0% {
+        border-radius: 0.5rem;
+        --tw-bg-opacity: 1;
+        background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+        --tw-text-opacity: 1;
+        color: rgb(254 249 195 / var(--tw-text-opacity));
+      }
+    }
+
+    @keyframes slide-fade-up-in {
+      0% {
+        opacity: 0;
+        transform: translateY(0.5rem);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    [data-rmiz-modal-content] {
+      --tw-bg-opacity: 1;
+      background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+      --tw-text-opacity: 1;
+      color: rgb(243 244 246 / var(--tw-text-opacity));
+    }
+
+    ::-moz-selection {
+      --tw-bg-opacity: 1;
+      background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+      --tw-text-opacity: 1;
+      color: rgb(113 63 18 / var(--tw-text-opacity));
+    }
+
+    ::selection {
+      --tw-bg-opacity: 1;
+      background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+      --tw-text-opacity: 1;
+      color: rgb(113 63 18 / var(--tw-text-opacity));
+    }
+  </style>
+  <script type="module">
+    window.fireEvent = (e) => {
+      const { action: n, category: t, label: a, value: i } = e;
+      if (!window.gtag) {
+        console.warn("Missing GTAG - Analytics disabled");
+        return;
+      }
+      window.gtag("event", n, {
+        event_category: t,
+        event_label: a,
+        value: i,
+      });
+    };
+  </script>
+  <script type="module" src="/_astro/page.DFwqf4PB.js"></script>
+  <!-- BARU -->
+  <style>
+      .skills-section {
+          max-width: 53rem;
+          text-align: center;
+          margin-bottom: 40px;
+      }
+
+      .skills-title {
+          font-size: 0.9rem;
+          font-weight: 500;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+      }
+
+      .skills-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          font-size: 1.1rem;
+          list-style: none;
+          padding: 0;
+      }
+
+      .skill-item {
+          background: rgba(255, 255, 255, 0.1);
+          color: rgba(255, 255, 255, 0.9);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 10px;
+          padding: 5px 15px;
+      }
+
+      .skill-item:hover {
+          background: rgba(255, 255, 255, 0.2);
+      }
+
+      /* Section Styling */
+      #projects {
+          text-align: center;
+          padding: 50px 20px;
+      }
+
+      #projects h2 {
+          font-size: 2rem;
+          margin-bottom: 30px;
+          color: #ffffff;
+          /* White title */
+      }
+
+      /* Project Container */
+      .projects-container {
+          max-width: 1100px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          max-width: 900px;
+          margin: auto;
+      }
+
+      /* Individual Project */
+      .project {
+          display: flex;
+          align-items: center;
+          background: #27272a;
+          /* Dark card background */
+          border-radius: 10px;
+          overflow: hidden;
+          /* Soft white glow */
+          border: 1px solid rgba(255, 255, 255, 0);
+      }
+
+      .project:nth-child(even) {
+          flex-direction: row-reverse;
+      }
+
+      /* Project Image */
+      .project-image {
+          width: 50%;
+      }
+
+      .project img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px 10px 10px 10px;
+      }
+
+      /* Project Content */
+      .project-content {
+          width: 50%;
+          padding: 20px;
+          text-align: left;
+      }
+
+      .project h3 {
+          font-size: 1.5;
+          margin-bottom: 10px;
+          color: #ffffff;
+      }
+
+      .project p {
+          color: #b0b0b0;
+          /* Lighter gray text */
+          margin-bottom: 15px;
+          font-size: 1rem;
+      }
+
+      .project-buttons {
+          display: flex;
+          gap: 10px;
+          /* Jarak antar button */
+          margin-top: 16px;
+      }
+
+      .btn {
+          background: rgba(255,
+                  255,
+                  255,
+                  0.15);
+          /* Transparan putih agar kontras dengan dark bg */
+          color: rgba(255, 255, 255, 0.95);
+          /* Teks putih lebih terang */
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          /* Border putih semi-transparan */
+          border-radius: 7px;
+          padding: 1px 19px;
+          /* Lebih besar agar nyaman di klik */
+          font-size: 14px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          transition: background 0.3s ease, transform 0.3s ease;
+          opacity: 1;
+          /* Langsung terlihat */
+          transform: translateY(0);
+          /* Tidak ada efek masuk dari bawah */
+      }
+
+      /* Efek Hover */
+      .btn:hover {
+          background: rgba(255, 255, 255, 0.3);
+          /* Lebih terang saat hover */
+          color: black;
+          /* Ubah warna teks agar kontras saat hover */
+      }
+
+      /* Untuk Button View dan Detail */
+      .view-project {
+          background: #007bff33;
+          /* Warna biru gelap transparan */
+          border-color: rgba(0, 123, 255, 0.5);
+      }
+
+      .view-project:hover {
+          background: rgba(0, 123, 255, 0.4);
+          color: white;
+      }
+
+      .detail-project {
+          background: rgba(255, 193, 7, 0.2);
+          /* Warna kuning transparan */
+          border-color: rgba(255, 193, 7, 0.5);
+      }
+
+      .detail-project:hover {
+          background: rgba(255, 193, 7, 0.4);
+          color: black;
+      }
+
+      /* Atur posisi button agar berdampingan */
+      .button-group {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          margin-top: 10px;
+      }
+
+      /* Responsive Design (Mobile) */
+      @media (max-width: 768px) {
+          .projects-container {
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+          }
+
+          .project {
+              flex-direction: column;
+              /* Stack jadi gambar di atas teks */
+              text-align: center;
+          }
+
+          .project-image {
+              display: none;
+              /* Hides image on mobile */
+          }
+
+          .project-content {
+              width: 100%;
+          }
+      }
+
+      .graph {
+          display: flex;
+          align-items: center;
+          background: #27272a;
+          border-radius: 10px;
+          overflow: hidden;
+          border: 1px solid rgba(0, 0, 0, 0);
+      }
+
+      .graph:nth-child(even) {
+          flex-direction: row-reverse;
+      }
+
+      /* Popup container */
+      .popup {
+          display: none;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #27272a;
+          padding: 20px;
+          border-radius: 8px;
+          z-index: 9999;
+          width: 90%;
+          max-width: 400px;
+          text-align: center;
+      }
+
+      /* Popup content */
+      .popup-content {
+          color: white;
+      }
+
+      /* Button close */
+      .popup .popup-close {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          cursor: pointer;
+          color: white;
+          font-size: 20px;
+      }
+
+      /* Animation for waving emoji */
+      .wave {
+          animation: wave 1.5s ease-in-out infinite;
+          font-size: 3rem;
+      }
+
+      @keyframes wave {
+          0% {
+              transform: rotate(0deg);
+          }
+
+          25% {
+              transform: rotate(10deg);
+          }
+
+          50% {
+              transform: rotate(0deg);
+          }
+
+          75% {
+              transform: rotate(-10deg);
+          }
+
+          100% {
+              transform: rotate(0deg);
+          }
+      }
+
+      /* Input and button styling */
+      textarea,
+      input {
+          font-size: 0.875rem;
+          background-color: #3a3a3c;
+          color: white;
+          border: 1px solid #4a4a4d;
+          border-radius: 8px;
+      }
+
+      /* sini */
+      buttonn {
+          font-size: 0.875rem;
+          padding: 0.5rem 1.5rem;
+          background-color: #4c4f56;
+          border-radius: 8px;
+          color: white;
+      }
+
+      buttonn:hover {
+          background-color: #393c42;
+      }
+
+      buttonn:focus {
+          outline: none;
+          box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.5);
+      }
+      /* Overlay background with blur effect */
+      .overlay {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.7);
+          /* Dark overlay with stronger opacity */
+          backdrop-filter: blur(5px);
+          /* Blur effect */
+          z-index: 9998;
+      }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      astro-island,
+      astro-slot,
+      astro-static-slot {
+        display: contents;
+      }
+    </style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +429,299 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script>
+        (() => {
+          var e = async (t) => {
+            await (
+              await t()
+            )();
+          };
+          (self.Astro || (self.Astro = {})).load = e;
+          window.dispatchEvent(new Event("astro:load"));
+        })();
+        (() => {
+          var A = Object.defineProperty;
+          var g = (i, o, a) =>
+            o in i
+              ? A(i, o, {
+                  enumerable: !0,
+                  configurable: !0,
+                  writable: !0,
+                  value: a,
+                })
+              : (i[o] = a);
+          var d = (i, o, a) => g(i, typeof o != "symbol" ? o + "" : o, a);
+          {
+            let i = {
+                0: (t) => m(t),
+                1: (t) => a(t),
+                2: (t) => new RegExp(t),
+                3: (t) => new Date(t),
+                4: (t) => new Map(a(t)),
+                5: (t) => new Set(a(t)),
+                6: (t) => BigInt(t),
+                7: (t) => new URL(t),
+                8: (t) => new Uint8Array(t),
+                9: (t) => new Uint16Array(t),
+                10: (t) => new Uint32Array(t),
+              },
+              o = (t) => {
+                let [l, e] = t;
+                return l in i ? i[l](e) : void 0;
+              },
+              a = (t) => t.map(o),
+              m = (t) =>
+                typeof t != "object" || t === null
+                  ? t
+                  : Object.fromEntries(
+                      Object.entries(t).map(([l, e]) => [l, o(e)])
+                    );
+            class y extends HTMLElement {
+              constructor() {
+                super(...arguments);
+                d(this, "Component");
+                d(this, "hydrator");
+                d(this, "hydrate", async () => {
+                  var b;
+                  if (!this.hydrator || !this.isConnected) return;
+                  let e =
+                    (b = this.parentElement) == null
+                      ? void 0
+                      : b.closest("astro-island[ssr]");
+                  if (e) {
+                    e.addEventListener("astro:hydrate", this.hydrate, {
+                      once: !0,
+                    });
+                    return;
+                  }
+                  let c = this.querySelectorAll("astro-slot"),
+                    n = {},
+                    h = this.querySelectorAll(
+                      "template[data-astro-template]"
+                    );
+                  for (let r of h) {
+                    let s = r.closest(this.tagName);
+                    s != null &&
+                      s.isSameNode(this) &&
+                      ((n[
+                        r.getAttribute("data-astro-template") || "default"
+                      ] = r.innerHTML),
+                      r.remove());
+                  }
+                  for (let r of c) {
+                    let s = r.closest(this.tagName);
+                    s != null &&
+                      s.isSameNode(this) &&
+                      (n[r.getAttribute("name") || "default"] = r.innerHTML);
+                  }
+                  let p;
+                  try {
+                    p = this.hasAttribute("props")
+                      ? m(JSON.parse(this.getAttribute("props")))
+                      : {};
+                  } catch (r) {
+                    let s = this.getAttribute("component-url") || "<unknown>",
+                      v = this.getAttribute("component-export");
+                    throw (
+                      (v && (s += ` (export ${v})`),
+                      console.error(
+                        `[hydrate] Error parsing props for component ${s}`,
+                        this.getAttribute("props"),
+                        r
+                      ),
+                      r)
+                    );
+                  }
+                  let u;
+                  await this.hydrator(this)(this.Component, p, n, {
+                    client: this.getAttribute("client"),
+                  }),
+                    this.removeAttribute("ssr"),
+                    this.dispatchEvent(new CustomEvent("astro:hydrate"));
+                });
+                d(this, "unmount", () => {
+                  this.isConnected ||
+                    this.dispatchEvent(new CustomEvent("astro:unmount"));
+                });
+              }
+              disconnectedCallback() {
+                document.removeEventListener(
+                  "astro:after-swap",
+                  this.unmount
+                ),
+                  document.addEventListener(
+                    "astro:after-swap",
+                    this.unmount,
+                    {
+                      once: !0,
+                    }
+                  );
+              }
+              connectedCallback() {
+                if (
+                  !this.hasAttribute("await-children") ||
+                  document.readyState === "interactive" ||
+                  document.readyState === "complete"
+                )
+                  this.childrenConnectedCallback();
+                else {
+                  let e = () => {
+                      document.removeEventListener("DOMContentLoaded", e),
+                        c.disconnect(),
+                        this.childrenConnectedCallback();
+                    },
+                    c = new MutationObserver(() => {
+                      var n;
+                      ((n = this.lastChild) == null ? void 0 : n.nodeType) ===
+                        Node.COMMENT_NODE &&
+                        this.lastChild.nodeValue === "astro:end" &&
+                        (this.lastChild.remove(), e());
+                    });
+                  c.observe(this, {
+                    childList: !0,
+                  }),
+                    document.addEventListener("DOMContentLoaded", e);
+                }
+              }
+              async childrenConnectedCallback() {
+                let e = this.getAttribute("before-hydration-url");
+                e && (await import(e)), this.start();
+              }
+              async start() {
+                let e = JSON.parse(this.getAttribute("opts")),
+                  c = this.getAttribute("client");
+                if (Astro[c] === void 0) {
+                  window.addEventListener(`astro:${c}`, () => this.start(), {
+                    once: !0,
+                  });
+                  return;
+                }
+                try {
+                  await Astro[c](
+                    async () => {
+                      let n = this.getAttribute("renderer-url"),
+                        [h, { default: p }] = await Promise.all([
+                          import(this.getAttribute("component-url")),
+                          n ? import(n) : () => () => {},
+                        ]),
+                        u =
+                          this.getAttribute("component-export") || "default";
+                      if (!u.includes(".")) this.Component = h[u];
+                      else {
+                        this.Component = h;
+                        for (let f of u.split("."))
+                          this.Component = this.Component[f];
+                      }
+                      return (this.hydrator = p), this.hydrate;
+                    },
+                    e,
+                    this
+                  );
+                } catch (n) {
+                  console.error(
+                    `[astro-island] Error hydrating ${this.getAttribute(
+                      "component-url"
+                    )}`,
+                    n
+                  );
+                }
+              }
+              attributeChangedCallback() {
+                this.hydrate();
+              }
+            }
+            d(y, "observedAttributes", ["props"]),
+              customElements.get("astro-island") ||
+                customElements.define("astro-island", y);
+          }
+        })();
+      </script>
+
+    <script>
+      // Function to open the popup
+      function openPopup() {
+        document.getElementById("popup").style.display = "block";
+        document.getElementById("overlay").style.display = "block"; // Show overlay
+      }
+
+      // Function to close the popup
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+        document.getElementById("overlay").style.display = "none"; // Hide overlay
+      }
+
+      // Function to submit the form and send the message via WhatsApp
+      function sendMessage(event) {
+        event.preventDefault();
+
+        const message = document.getElementById("popup-message").value;
+        const formattedMessage = `${message}`;
+
+        // WhatsApp URL with the message
+        const whatsappUrl = `https://wa.me/6282285512813?text=${encodeURIComponent(
+          formattedMessage
+        )}`;
+
+        // Open WhatsApp with the formatted message
+        window.open(whatsappUrl, "_blank");
+
+        // Close the popup after sending the message
+        closePopup();
+      }
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const skills = document.querySelectorAll(".skill-item");
+        skills.forEach((skill, index) => {
+          setTimeout(() => {
+            skill.style.opacity = "1";
+            skill.style.transform = "translateY(0)";
+          }, index * 100);
+        });
+      });
+    </script>
+
+    <script>
+      function submitForm(event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Get current date and time
+        const date = new Date();
+        const formattedDate = `${date.toLocaleString("en-GB", {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })} | ${date.toLocaleTimeString()}`;
+
+        // Format the message
+        const formattedMessage = `Nama : ${name}\nEmail : ${email}\nDate : ${formattedDate}\nMessage : ${message}`;
+
+        // Encode the message for URL
+        const encodedMessage = encodeURIComponent(formattedMessage);
+
+        // WhatsApp link
+        const whatsappUrl = `https://wa.me/6282285512813?text=${encodedMessage}`;
+
+        // Open WhatsApp with the formatted message
+        window.open(whatsappUrl, "_blank");
+      }
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139582634-1"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
