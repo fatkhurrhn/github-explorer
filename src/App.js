@@ -1,19 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HomePage from './HomePage'; // Assuming you have a HomePage component
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <div>
-    <form className="user-form" id="form">
-        <input type="text" id="search" placeholder="search username github" />
-    </form>
-
-    <main id="main"></main>
-
-    
-</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
