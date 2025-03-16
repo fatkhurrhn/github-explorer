@@ -32,9 +32,9 @@ export default function GitHubSearch() {
   }, [search]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-gray-200">
+    <div className="min-h-screen flex items-center justify-center bg-[#18181b] text-gray-200">
       <div className="container mx-auto p-6 max-w-lg">
-        <div className="mb-6 flex bg-gray-800 border border-gray-700 rounded-lg shadow-sm">
+        <div className="mb-6 flex bg-[#18181b] border border-[#252529] rounded-lg shadow-sm">
           <input
             type="text"
             value={search}
@@ -51,7 +51,7 @@ export default function GitHubSearch() {
         )}
 
         {user && (
-          <div className="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700 transition-all">
+          <div className="bg-[#18181b] p-6 rounded-lg shadow-md border border-[#252529] transition-all">
             <div className="flex items-center gap-4">
               <img src={user.avatar_url} alt={user.login} className="w-16 h-16 rounded-full border-2 border-blue-400" />
               <div>
@@ -60,7 +60,7 @@ export default function GitHubSearch() {
               </div>
             </div>
 
-            <ul className="flex justify-between mt-4 bg-gray-700 p-3 rounded-md shadow-sm">
+            <ul className="flex justify-between mt-4 border border-[#252529] bg-[#18181b] p-3 rounded-md shadow-sm">
               <li className="text-center">
                 <span className="block text-lg font-semibold">{user.followers}</span>
                 <span className="text-gray-400 text-sm">Followers</span>
@@ -84,7 +84,7 @@ export default function GitHubSearch() {
                     href={repo.html_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block bg-gray-700 p-3 rounded-md shadow-sm hover:bg-gray-600 transition-all"
+                    className="block border border-[#252529] bg-[#18181b] p-3 rounded-md shadow-sm hover:bg-gray-600 transition-all"
                   >
                     {repo.name}
                   </a>
@@ -94,7 +94,7 @@ export default function GitHubSearch() {
 
             <button
               onClick={() => window.open(user.html_url, "_blank")}
-              className="bg-blue-600 text-white w-full mt-6 p-3 rounded-md shadow-md hover:bg-blue-700 transition-all"
+              className="border border-[#252529] bg-[#1f1f24] hover:bg-[#1f1f24] text-white w-full mt-6 p-3 rounded-md shadow-md transition-all"
             >
               Go to Profile
             </button>
